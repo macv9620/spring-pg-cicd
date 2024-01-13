@@ -16,7 +16,7 @@ public class PageMainController {
         String data;
         HttpStatus httpStatus;
 
-            data = null;
+            data = "Health Check OK";
             message = "This is the V.1";
             httpStatus = HttpStatus.OK;
 
