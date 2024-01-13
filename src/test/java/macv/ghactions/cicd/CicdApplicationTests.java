@@ -24,7 +24,7 @@ class CicdApplicationTests {
 		users = userService.getAllUsers();
 		int usersQuantity = users.size();
 
-		Assertions.assertEquals(1, usersQuantity);
+		Assertions.assertEquals(2, usersQuantity);
 	}
 
 	@Test
