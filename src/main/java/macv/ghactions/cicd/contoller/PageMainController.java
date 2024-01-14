@@ -17,7 +17,7 @@ public class PageMainController {
         HttpStatus httpStatus;
 
             data = "Health Check OK";
-            message = "This is the V.1";
+            message = "This is the V.2 ci/cd";
             httpStatus = HttpStatus.OK;
 
         ResponseWrapper<String> responseWrapper = new ResponseWrapper<>(
